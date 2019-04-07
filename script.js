@@ -90,7 +90,7 @@ function sessionCountDown(){
 
 	timerContainer.classList.remove("orange");
 	timerContainer.classList.add("green");
-	timerText.innerHTML="Get working!";
+	timerText.innerHTML="Work hard!";
 
 	m=Math.floor(sessionSecs/60)*1;
 	s=sessionSecs % 60 *1;
@@ -120,7 +120,7 @@ function workBreak(){
 function breakCountDown(){
 	timerContainer.classList.remove("green");
 	timerContainer.classList.add("orange");
-	timerText.innerHTML="Break Time!";
+	timerText.innerHTML="Take a break!";
 
 	m=Math.floor(breakSecs/60);
 	s=breakSecs % 60;
